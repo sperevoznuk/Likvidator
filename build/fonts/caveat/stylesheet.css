@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Caveat';
+    src: local('Caveat Regular'), local('Caveat-Regular'),
+        url('Caveat-Regular.woff2') format('woff2'),
+        url('Caveat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Caveat';
+    src: local('Caveat Bold'), local('Caveat-Bold'),
+        url('Caveat-Bold.woff2') format('woff2'),
+        url('Caveat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

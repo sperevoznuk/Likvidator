@@ -1,0 +1,51 @@
+{
+  "name": "likvidator.pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-stylus": "^2.7.0",
+    "gulp.spritesmith": "^6.11.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "browserlist": "^1.0.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-import-css": "^0.1.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rigger": "^0.5.8",
+    "gulp-svg-sprite": "^1.5.0",
+    "node-sass": "^4.14.1",
+    "slick-carousel": "^1.8.1",
+    "vinyl-ftp": "^0.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sperevoznuk/komod_html.git"
+  },
+  "author": "Sergey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sperevoznuk/komod_html/issues"
+  },
+  "homepage": "https://github.com/sperevoznuk/komod_html#readme",
+  "browserslist": [
+    "> 1%",
+    "ie >= 8",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4",
+    "bb >= 10"
+  ]
+}
