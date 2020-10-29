@@ -1,0 +1,128 @@
+.categories {
+}
+
+.categories .col {
+    color: #E41414;
+    margin-bottom: 40px;
+}
+
+.categories .col:nth-child(2) {
+    color: #219653;
+}
+
+.categories .col:nth-child(3) {
+    color: #828282;
+}
+
+
+.categories .col:nth-child(4) .title {
+    color: #828282;
+    border-color: #BDBDBD;
+    padding-left: 0;
+}
+
+.left-menu .col-files {
+    position:absolute;
+    max-width: 250px;
+    right: -280px;
+    top: 0;
+}
+
+.categories .title {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    padding-left: 25px;
+    border-bottom: 7px solid currentColor;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+}
+
+.categories ul {
+}
+
+.categories ul >li {
+    position: relative;
+}
+
+.categories .menu-icon-selected {
+    width: 18px;
+    height: 17px;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    bottom: 0;
+    margin: auto;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.categories .active .menu-icon-selected, .categories li:hover .menu-icon-selected {
+    opacity: 1;
+    left: 0;
+}
+
+.categories ul >li> a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 5px 10px 25px;
+    border-bottom: 1px solid #D4E0EF;
+}
+
+.categories .file-link {
+    text-transform: initial;
+}
+.categories .file-link:hover {
+    text-decoration:underline;
+}
+
+.categories .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.popup-link {
+    font-family: Caveat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    color: #E41414;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.popup-link:hover {
+    text-decoration: underline;
+}
+
+.popup-link .icon-arrow {
+    width: 31px;
+    vertical-align: middle;
+    height: 18px;
+}
+
+.content-cols {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.content-cols asside {
+    width: 250px;
+}
+
+.content-cols asside + .right-content {
+    width: calc(100% - 250px );
+    padding-left: 82px;
+}
+
+.icon {
+    display: inline-block;
+}

@@ -6,18 +6,18 @@ blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
 *{box-sizing:border-box;outline:0}
 .p5{padding:5px}
-body{font-style:normal;font-weight:400;font-size:14px;line-height:1.6;color:#283240;font-family:Inter,sans-serif;min-width:360px}
+body{font-style:normal;font-weight:400;font-size:15px;line-height:1.6;font-family:Inter,sans-serif;min-width:360px;color:#283240}
 svg{display:block;max-width:100%;max-height:100%}
-.container{max-width:1190px;width:100%;padding:0 10px;margin:auto}
+.container{max-width:1230px;width:100%;padding:0 10px;margin:auto}
 a{color:#42699d;text-decoration:underline;-webkit-transition:.3s;transition:.3s}
 a:hover{text-decoration:none}
-.h1,h1{font-family:Inter;font-style:normal;font-weight:800;font-size:34px;margin-bottom:10px}
-.h2,h2{font-weight:500;font-size:27px}
+.h1,h1{font-family:Inter;font-style:normal;font-weight:400;font-size:34px;margin-bottom:30px;line-height:1.5}
+.h2,h2{font-weight:500;font-size:27px;margin:40px 0 30px}
 .h3,h3{font-weight:500;font-size:22px}
 .h4,h4{font-weight:700;font-size:19px}
 .h5,h5{font-weight:400;font-size:24px}
 section.content{margin-bottom:30px}
-p{margin-bottom:5px}
+p{margin-bottom:11px}
 b,strong{font-weight:800}
 .text-left{text-align:left}
 .text-right{text-align:right}
@@ -84,15 +84,15 @@ body .slick-dots li button{background:#7776bc;width:20px}
 body .slick-dots li button:before{display:none}
 body .slick-dots li.slick-active button{background:#e60000}
 .block-title{font-weight:500;font-size:25px;letter-spacing:.75px;text-transform:uppercase;margin-bottom:20px;line-height:1.2}
-.text-block ol,.text-block ul{padding:5px 0 10px 15px;counter-reset:index}
-.text-block ul li{position:relative;padding-left:20px;margin-bottom:5px}
-.text-block ul li:before{content:'';width:10px;height:10px;background:#7776bc;display:block;border-radius:50%;position:absolute;left:0;top:4px}
-.text-block ol li{position:relative;counter-increment:index;padding-left:20px}
-.text-block ol li:before{content:counter(index) '.';width:10px;color:#7776bc;display:block;position:absolute;left:0;top:2px;font-size:16px;line-height:1}
+.text-block ol,.text-block ul{padding:20px 0;counter-reset:index}
+.text-block ul li{position:relative;padding-left:60px;margin-bottom:16px}
+.text-block ul li:before{content:'';width:28px;height:25px;background:url(../img/sprite.png) -29px 0;display:block;position:absolute;left:0;top:0}
+.text-block ol li{position:relative;counter-increment:index;padding-left:50px;margin-bottom:16px}
+.text-block ol li:before{content:counter(index);width:10px;color:#fff;display:block;position:absolute;left:0;top:2px;font-weight:800;font-size:15px;background:#409753;padding:4px;text-align:center;line-height:1}
 .title_popup{text-align:center;margin-bottom:10px;font-weight:500;font-size:25px;line-height:1.3}
 .sub_title_popup{text-align:center;margin-bottom:10px;line-height:1.3;font-size:18px;font-weight:500}
 .pop_up_box .product_title{text-align:center;margin-bottom:10px;font-weight:700;font-size:18px;letter-spacing:.03em;font-family:Adelle Cyrillic}
-.pop_up_box{width:770px;max-width:100%;font-size:18px}
+.pop_up_box{width:100%;max-width:100%;font-size:18px}
 .pop_up_box#call{width:500px}
 .pop_up_box .button{width:100%}
 .pop_up_box#login{width:400px}
@@ -129,5 +129,52 @@ label.checkbox span{color:#7776bc;font-size:12px;margin-left:5px}
 label.checkbox:before{content:'';width:19px;height:19px;position:absolute;left:0;top:0;background:#fff;border-radius:3px}
 input:checked+label.checkbox:before{background:#7776bc}
 input.checkbox{display:none}
-.icon-check-green{background-image:url(../img/sprite.png);background-position:0 0;width:28px;height:26px}
-.icon-document{background-image:url(../img/sprite.png);background-position:-28px 0;width:17px;height:23px}
+.big-container{max-width:1860px;margin:auto;padding:0 40px}
+header{padding:65px 0 120px}
+header .big-container{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start}
+header .right{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:CENTER;-webkit-align-items:CENTER;-ms-flex-align:CENTER;align-items:CENTER;line-height:1}
+header .phone{font-weight:500;font-size:24px;color:#283240;text-decoration:none;margin:0 0 0 50px;display:block}
+header .phone:hover{text-decoration:underline}
+header .menu_btn{font-weight:600;font-size:10px;letter-spacing:.04em;text-transform:uppercase;text-decoration:none;color:#283240;display:block;line-height:1;height:30px;margin-left:50px}
+header .menu_btn:after{content:'';display:block;width:100%;background:#283240;height:3px;margin:5px 0 0;box-shadow:0 8px 0 0 #283240}
+.main_menu{max-width:680px}
+.main_menu .categories{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:WRAP;-ms-flex-wrap:WRAP;flex-wrap:WRAP}
+.main_menu .categories .col{width:25%}
+.main_menu .categories .title{font-size:14px}
+.main_menu .categories ul>li>a{font-size:11px}
+footer{background:url(../img/footerbg.jpg) top center no-repeat #243d54;padding-top:130px;margin-top:100px}
+footer .footer-cols{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}
+footer .footer-cols a{color:#fff;text-decoration:none}
+footer .footer-cols a:hover{text-decoration:underline}
+footer .footer-cols li{margin-bottom:11px}
+footer .footer-cols .popup-link{color:#fff;font-size:30px}
+footer .bottom{font-size:12px;font-weight:500;color:#bdbdbd;padding:80px 0 20px}
+footer .bottom .bottom-inner{border-top:1px solid #bdbdbd;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;padding:20px 0 0}
+footer .bottom a{color:inherit;text-decoration:none}
+footer .bottom a:hover{text-decoration:underline}
+@media (min-width:1920px){
+footer{background-size:100% auto}
+}
+.icon-document{background-image:url(../img/sprite.png);background-position:0 -29px;width:17px;height:23px}
+.icon-li-check{background-image:url(../img/sprite.png);background-position:-29px 0;width:28px;height:26px}
+.icon-li-danger{background-image:url(../img/sprite.png);background-position:0 0;width:29px;height:29px}
+.categories .col{color:#e41414;margin-bottom:40px}
+.categories .col:nth-child(2){color:#219653}
+.categories .col:nth-child(3){color:#828282}
+.categories .col:nth-child(4) .title{color:#828282;border-color:#bdbdbd;padding-left:0}
+.left-menu .col-files{position:absolute;max-width:250px;right:-280px;top:0}
+.categories .title{font-weight:700;font-size:18px;letter-spacing:.1em;padding-left:25px;border-bottom:7px solid currentColor;text-transform:uppercase;padding-bottom:2px}
+.categories ul>li{position:relative}
+.categories .menu-icon-selected{width:18px;height:17px;position:absolute;top:0;left:-10px;bottom:0;margin:auto;opacity:0;-webkit-transition:.3s;transition:.3s}
+.categories .active .menu-icon-selected,.categories li:hover .menu-icon-selected{opacity:1;left:0}
+.categories ul>li>a{text-decoration:none;font-weight:500;font-size:13px;text-transform:uppercase;display:block;padding:10px 5px 10px 25px;border-bottom:1px solid #d4e0ef}
+.categories .file-link{text-transform:initial}
+.categories .file-link:hover{text-decoration:underline}
+.categories .icon{position:absolute;left:0;top:0;bottom:0;margin:auto}
+.popup-link{font-family:Caveat;font-style:normal;font-weight:700;font-size:34px;color:#e41414;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;text-decoration:none}
+.popup-link:hover{text-decoration:underline}
+.popup-link .icon-arrow{width:31px;vertical-align:middle;height:18px}
+.content-cols{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;position:relative;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}
+.content-cols asside{width:250px}
+.content-cols asside+.right-content{width:calc(100% - 250px);padding-left:82px}
+.icon{display:inline-block}

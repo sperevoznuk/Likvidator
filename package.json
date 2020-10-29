@@ -27,14 +27,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sperevoznuk/komod_html.git"
+    "url": "git+https://github.com/sperevoznuk/Likvidator.git"
   },
   "author": "Sergey",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sperevoznuk/komod_html/issues"
+    "url": "https://github.com/sperevoznuk/Likvidator/issues"
   },
-  "homepage": "https://github.com/sperevoznuk/komod_html#readme",
+  "homepage": "https://github.com/sperevoznuk/Likvidator#readme",
   "browserslist": [
     "> 1%",
     "ie >= 8",

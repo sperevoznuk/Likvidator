@@ -84,13 +84,13 @@ gulp.task('image:img', function (done) {
   done();
 });
 gulp.task('image:sprite', function (done) {
-  var spriteData =  gulp.src(path.src.imgSpriteIcons).pipe(spritesmith({
-      imgName: '../img/sprite.png',
-      cssName: '_sprite.css',
-    }));
+  // var spriteData =  gulp.src(path.src.imgSpriteIcons).pipe(spritesmith({
+  //     imgName: '../img/sprite.png',
+  //     cssName: '_sprite.css',
+  //   }));
 
-  spriteData.img.pipe(gulp.dest('./app/img/')); // путь, куда сохраняем картинку
-  spriteData.css.pipe(gulp.dest('./app/css/')); // путь, куда сохраняем стили
+  // spriteData.img.pipe(gulp.dest('./app/img/')); // путь, куда сохраняем картинку
+  // spriteData.css.pipe(gulp.dest('./app/css/')); // путь, куда сохраняем стили
  
   done();
 });
