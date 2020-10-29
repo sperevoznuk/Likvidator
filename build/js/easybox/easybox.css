@@ -1,5 +1,5 @@
 .easy-overlay {
-    background: rgb(0 0 0 / 0.6);
+    background: rgb(255 255 255);
     position: fixed;
     left: 0;
     right: 0;
@@ -12,26 +12,23 @@
 }
 
 .easy-content {
-    display: block;
+    display: flex;
     position: relative;
     background: #fff;
     min-width: 200px;
     min-height: 200px;
     max-height: 100%;
     max-width: 100%;
-    overflow:auto;
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .easy-close {
     display: block;
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     right: 10px;
     top: 10px;
     cursor: pointer;
@@ -84,7 +81,12 @@
 }
 
 .easy-inner  {
-    padding : 20px;
+    padding: 30px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+    overflow: auto;
 }
 
 body.easy-blocked {

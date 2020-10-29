@@ -21,7 +21,13 @@ footer .footer-cols li {
     margin-bottom: 11px;
 }
 
-footer .footer-cols .col {}
+footer .footer-cols .col {
+    max-width: 30%;
+}
+
+footer .footer-cols .col:last-child {
+    /* text-align:right; */
+}
 
 footer .footer-cols .popup-link {
     color: #fff;
@@ -63,3 +69,22 @@ footer .copy-date {
         background-size:100% auto;
     }
 }
+
+@media (max-width: 960px) {
+    footer {
+       margin-top: 50px;
+    }
+}
+
+
+@media (max-width: 768px) {
+   footer .footer-cols .col {
+       width:100%;
+       max-width: 100%;
+       margin-bottom: 30px;
+   }
+   footer .bottom {
+       padding: 40px 0 20px;
+   }
+}
+
