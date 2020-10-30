@@ -1,0 +1,326 @@
+.about {
+    position: relative;
+    margin-bottom: 50px;
+}
+.about  .text{
+    width: 50%;
+    padding-right: 70px;
+}
+.about h1 {
+    font-size: 30px;
+}
+.about  .image{
+    position: absolute;
+    top: -50px;
+    right: 0;
+    /* bottom: 0; */
+    /* margin: auto; */
+    width: 50%;
+}
+.about  .image img {
+    max-width: 100%;
+}
+
+.types {
+    background: url(../img/bg_red_top.png) top center no-repeat, 
+    url(../img/bg_red_bottom.png) bottom center no-repeat, #F10700;
+    background-size: 100% auto;
+    padding: 190px 0 230px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.types a {
+    color:#fff;
+}
+.types .title{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.types .alter-text{text-align: CENTER;font-weight: 500;font-size: 19px;line-height: 150%;}
+.types .items{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto 20px;
+    flex-wrap: wrap;
+}
+.types .items .item{
+    text-align: CENTER;
+    width: 25%;
+    margin-bottom: 30px;
+}
+.types .items .img{
+    margin-bottom: 30px;
+}
+.types .items .img img{
+    max-width: 100%;
+}
+.types .items .name{}
+
+.single-service {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.single-service a {
+    color: #E41414;
+}
+.single-service .text {
+    width: 43%;
+    padding-right: 160px;
+}
+.single-service .text p {
+    margin-bottom: 20px;
+}
+.single-service .carts {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: flex-end;
+}
+.carts-items {
+    display:flex;
+    flex-wrap:wrap;
+    /* justify-content: center; */
+}
+.cart-service {
+    text-align: center;
+    box-shadow: 0 0 5px 0px rgb(0 0 0 / 0.13);
+    margin: 0 30px 30px 0;
+    width: 250px;
+    min-height: 380px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.cart-service.green {
+    min-height: 340px;
+    padding-bottom: 50px;
+}
+.cart-service .head {
+ background: url(../img/cart-head.png) center bottom no-repeat   #f24800;
+ padding: 10px 10px 30px;
+ color: #fff;
+ font-weight: 800;
+ font-size: 19px;
+ text-transform: uppercase;
+ min-height: 160px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.cart-service.green .head {
+     background: url(../img/cart-head-green.png) center bottom no-repeat   #439731;
+     min-height: 130px;
+}
+.cart-service .price {
+    font-weight: bold;
+    font-size: 26px;
+    display: block;
+}
+.cart-service .more {
+    display: block;
+    font-size: 13px;
+    line-height: 16px;
+/* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #283240;
+}
+.cart-service.green .popup-link {
+        color: #219653;
+
+}
+
+.green-block {
+    background: url(../img/bg_green_top.png) center top no-repeat, url(../img/bg_green_bottom.png) center bottom no-repeat  #009632;
+    padding: 150px 0 180px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.green-block .text {
+    max-width: 650px;
+    margin:auto;
+}
+
+
+.services {
+    counter-reset: index;
+}
+ 
+.services .service-item  {
+    flex-wrap: wrap;
+    display: flex;
+    counter-increment: index;
+    margin-bottom: 100px;
+    align-items: flex-start;
+}
+.services .title {
+    font-weight: 500;
+    font-size: 27px;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.services .icon-counter {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+ .services span {
+         display: inline-block;
+    vertical-align: middle;
+ }
+.services .descr {
+        width: 43%;
+        padding-left: 70px;
+        padding: 0px 70px 40px 70px;
+}
+.services .descr a {
+    color: #219653;
+}
+ 
+.services .carts {
+    display: flex;
+    flex-wrap: wrap;
+    width: 57%;
+    align-items: flex-start;
+}
+
+ 
+.services .text {font-weight: 500;font-size: 18px;margin-bottom: 30px;}
+
+
+
+
+
+@media (max-width: 1700px) {
+      .service-item.items-3 .descr {
+        width:100%;
+        padding: 0px 0 40px 70px;
+    }
+    .service-item.items-3 .carts {
+        width:100%;
+        justify-content: center;
+    }
+     .single-service .text {
+         padding-right: 60px;
+         width: 39%;
+     }
+     .single-service .carts {
+         width: 61%;
+     }
+     .single-service {
+         margin-bottom: 40px;
+     }
+     .services .title {
+         font-size:20px;
+     }
+}
+
+
+
+@media (max-width:968px) {
+  
+      .service-item.items-2 .descr {
+        width:100%;
+      
+    }
+    .service-item.items-2 .carts {
+        width:100%;
+    }
+    .service-item .descr, .service-item.items-3 .descr {
+          padding: 0px 0 40px 0px;
+    }
+    .cart-service {
+        width:226px;
+        margin: 0 10px;
+    }
+    .services .service-item {
+        margin-bottom: 60px;
+    }
+    .green-block {
+        padding: 120px 0 110px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .single-service .text {
+        width:100%;
+        padding: 0;
+    }
+    .single-service .carts {
+        width:100%;
+        justify-content: center;
+    }
+      .about .image {
+        position:relative;
+        width: 100%;
+        top: 0;
+        padding-left: 10px;
+    }
+    .about h1 {
+        font-size:17px;
+    }
+    .about .text {
+        width:100%;
+        padding:0
+    }
+    
+}
+@media (max-width: 768px) {
+    
+    .carts-items {
+        
+        justify-content: center;
+        width: 100%;
+    }
+    .service-item .descr, .service-item.items-3 .descr {
+        padding-bottom: 0;
+        width: 100%;
+    }
+    .services .carts {
+        width: 100%;
+    }
+    .types {
+        padding: 90px 0 90px;
+    }
+    .types .items .item {
+        width:100%;
+    }
+    .types .title {
+        font-size:17px;
+    }
+    .types .alter-text {
+        font-size:15px
+        
+    }
+  
+}
+
+@media (max-width:480px) { 
+    .cart-service {
+    width:280px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    }
+    .services .service-item {
+    margin-bottom: 30px;
+}
+}
+
+
+
+
+
+
+

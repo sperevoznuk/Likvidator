@@ -12,8 +12,7 @@ header .logo {
     /* padding-top: 40px; */
 }
 
-header .logo img {
-}
+header .logo img {max-width: 100%;}
 
 header .right {
     display: flex;
@@ -87,6 +86,13 @@ header .menu_btn:after {
     display:none;
 }
 
+@media (max-width:1600px) {
+    header {
+        padding: 55px 0 50px;
+    }
+}
+
+
 @media (max-width: 1024px) {
     header .menu_btn {
         margin-left: 20px;
@@ -125,5 +131,8 @@ header .menu_btn:after {
     }
     .main_menu {
         margin-bottom:30px
+    }
+    header .logo {
+        max-width:190px;
     }
 }

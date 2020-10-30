@@ -56,6 +56,8 @@ var easybox = {
         var body = document.getElementsByTagName('body');
         document.body.appendChild(box);
 
+ 
+
         close.addEventListener('click', (event) => {
             this._close(event.target.parentNode.parentNode);
 
@@ -66,6 +68,8 @@ var easybox = {
             }
         });
         this.blockPage();
+       
+ 
     },
     _close: function (target) {
         var element = target.querySelector('.easy-inner >*');

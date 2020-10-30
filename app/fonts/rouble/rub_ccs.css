@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'rouble';
+    src: url('rouble.otf');
+    src: url('rouble.otf') format('opentype');	
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.rouble{
+    display:inline-block;
+}
+ 
+.rouble:after {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'rouble';
+    text-transform: initial;
+    content: 'q';
+    margin-left: 4px;
+    line-height: initial;
+}

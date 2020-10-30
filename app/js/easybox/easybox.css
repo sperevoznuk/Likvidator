@@ -1,5 +1,6 @@
 .easy-overlay {
-    background: rgb(255 255 255);
+    background: rgb(255 255 255 / 0.98);
+    /* opacity: 0.98; */
     position: fixed;
     left: 0;
     right: 0;
@@ -14,7 +15,7 @@
 .easy-content {
     display: flex;
     position: relative;
-    background: #fff;
+    /* background: #fff; */
     min-width: 200px;
     min-height: 200px;
     max-height: 100%;
@@ -81,12 +82,20 @@
 }
 
 .easy-inner  {
-    padding: 30px 20px;
+    /* padding: 30px 20px; */
     width: 100%;
-    display: flex;
-    justify-content: center;
     max-height: 100%;
-    overflow: auto;
+    overflow: AUTO;
+}
+.center-title {
+   font-family: Caveat;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 34px;
+   text-align: center;
+   color: #219653;
+   line-height: 1;
+   margin: 20vh 0;
 }
 
 body.easy-blocked {
@@ -97,5 +106,7 @@ body.easy-blocked {
 
 .easy-content {
     align-items:flex-start;
+    display: block;
+    min-height: 0;
 }
 }

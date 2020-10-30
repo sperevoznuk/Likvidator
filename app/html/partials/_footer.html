@@ -42,15 +42,55 @@
 
 <div class="hidden">
     <div class="pop_up_box" id="order">
+        <div class="popup-logo"><img src="img/logo.png" alt=""></div>
+        <div class="pop_up_title">
+            <div class="popup-link grey center">
+                <svg class="icon-arrow-down">
+                    <use xlink:href="img/sprite.svg#arr-down"></use>
+                </svg>
+                Получить консультацию
+            </div>
+        </div>
+        <form action="/">
+            <div class="input_row"><input type="text" placeholder="Ваше имя*"></div>
+            <div class="input_row">
+                <label for="phone">Телефон*</label>
+                <input id="phone" class="input-phone" name="phone" type="text" placeholder="+7 (___) ___-__-__">
+            </div>
+            <div class="input_row">
+                <textarea name="comment" placeholder="Комментарий"></textarea>
+            </div>
+            <div class="input_row">
+                <div class="agree">
+                    Нажимая кнопку «Отправить», вы даете согласиес правилами обработки персональной информации.
+                </div>
+            </div>
+            <div class="input_row">
+                <button class="button popup-link center">
+                    <svg class="icon-arrow">
+                        <use xlink:href="img/sprite.svg#arr-right"></use>
+                    </svg>
+                    Отпраивить
+                </button>
+            </div>
+        </form>
 
-</div>
+
+    </div>
+
+    <div class="pop_up_box" id="thanks">
+        <div class="popup-logo"><img src="img/logo.png" alt=""></div>
+        <div class="center-title">Сообщение отправлено успешно</div>
+    </div>
 </div>
 
 <link rel="stylesheet" href="fonts/inter/stylesheet.css">
+<link rel="stylesheet" href="fonts/rouble/rub_ccs.css">
 <link rel="stylesheet" href="fonts/caveat/stylesheet.css">
 
 <link rel="stylesheet" href="js/easybox/easybox.css">
 <script src="js/easybox/easybox.js"></script>
+<script src="js/jquery.maskedinput.js"></script>
 <script src="js/main.js"></script>
 </body>
 
